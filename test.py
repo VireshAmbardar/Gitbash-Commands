@@ -7,9 +7,9 @@ b = 10
 
 ##chaitu make a addition file here
 def add():
-    # code here
+    
 
-    return 
+    return a+b 
 
 ## Sheaker make a multiplication file below
 def miltiplication():
