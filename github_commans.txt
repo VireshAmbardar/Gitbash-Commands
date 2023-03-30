@@ -34,7 +34,7 @@ $ git push origin main
 $ git push -u origin main
 
 ## if fatal error
-$ git push --force origin main
+$ git push --force origin maingipp
 
 ## to create a branch 
 $ git branch <name of branch>  
@@ -54,3 +54,6 @@ $ git remote add main <URL-github>
 ## lets suppose i have branches so
 		# name just given above and which branch you want to push it to  
 git push -u main main
+
+## for pushing branches into main/master
+git push origin <branch name>
