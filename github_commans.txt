@@ -1,0 +1,56 @@
+links --
+1. https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+
+## installation - install gitbash  and add it to syatem variable
+
+## open git bash .. navigate to your Project directory
+
+$ git  init -b main
+$ git add . && commit -m "<Your Commit message>"
+
+# make a new resository
+$ gh repo create "<Name of Resository>" [Flags]
+
+flags include 
+--private
+--public
+-s, --source <string>
+Specify path to local repository to use as source
+-r, --remote <string>
+Specify remote name for the new repository
+
+OR if you are making reposito in github Main will be default branch
+$ git init -b main
+$ git add .
+$ git commit -m "First commit"
+
+$ git remote add origin <REMOTE_URL>
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+$ git push origin main
+## or
+$ git push -u origin main
+
+## if fatal error
+$ git push --force origin main
+
+## to create a branch 
+$ git branch <name of branch>  
+$ git checkout <name of branch>
+
+# if we are goint to commit any changes here it wont effect master branch
+# checkout will call the branch if it's main or any name of branch 
+
+###### merge branch to master code base ####
+git merge <name of the branch>
+
+#### remote repository on cloud ####
+# create repo on github "test"
+			# giving it name here
+$ git remote add main <URL-github>
+
+## lets suppose i have branches so
+		# name just given above and which branch you want to push it to  
+git push -u main main
