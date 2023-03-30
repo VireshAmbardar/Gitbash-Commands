@@ -57,3 +57,7 @@ git push -u main main
 
 ## for pushing branches into main/master
 git push origin <branch name>
+
+##for creating and dierctly entering to branch 
+git checkout -b <branch_name>
+
