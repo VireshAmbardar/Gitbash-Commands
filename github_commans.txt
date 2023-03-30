@@ -33,6 +33,13 @@ $ git push origin main
 ## or
 $ git push -u origin main
 
+## branch inside branch
+## open the brach V1.2
+$ git checkput V1.2
+## make and enter that branch
+$ git checkout -b <branch name>
+eg $ git checkout -b V1.2.1
+
 ## if fatal error
 $ git push --force origin maingipp
 
