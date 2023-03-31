@@ -2,6 +2,8 @@ import pandas as pd
 
 ## run this command first ./Test/Scripts/activate
 
+# D:\MyFiles\testfile\Gitbash-Commands\test.py
+
 a = 50
 b = 10 
 
