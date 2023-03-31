@@ -85,5 +85,7 @@ $ git fetch
 # select the branch using checkout command
 $  git merge origin/<branch Name>
 
+#safer wayl
+git push --force-with-lease origin main
 
 
