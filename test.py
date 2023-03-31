@@ -15,4 +15,4 @@ def add():
 def miltiplication():
         # code here
     
-    return
+    return a*b
