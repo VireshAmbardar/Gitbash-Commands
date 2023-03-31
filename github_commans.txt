@@ -33,6 +33,7 @@ $ git push origin main
 ## or
 $ git push -u origin main
 
+
 ## branch inside branch
 ## open the brach V1.2
 $ git checkput V1.2
@@ -74,4 +75,15 @@ $ git checkout V1.2
 ## make a brach in V1.2 which is inside Master
 $ git checkour -b <name of brach> V1.2
 eg $ git checkput -b V1.2.1 V1.2
+
+################ fetching udates from remote directory ###############
+
+$ git fetch 
+# this will get the updates but will not show the upadtes in main brach... Select the branch you wan to update
+# remote branch  - this command will show you list of branches .. or you can create one by git branch <Branch Name>
+
+# select the branch using checkout command
+$  git merge origin/<branch Name>
+
+
 
