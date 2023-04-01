@@ -1,2 +1,1 @@
-# write your name below to print it out
-print("Hello, World!")
+# make a function that takes a list of numbers and returns the sum of the numbers.

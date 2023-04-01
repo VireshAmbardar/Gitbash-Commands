@@ -1,0 +1,1 @@
+# make a function that returns square of a number
