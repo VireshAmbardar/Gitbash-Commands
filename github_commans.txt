@@ -78,14 +78,20 @@ eg $ git checkput -b V1.2.1 V1.2
 
 ################ fetching udates from remote directory ###############
 
-$ git fetch 
-# this will get the updates but will not show the upadtes in main brach... Select the branch you wan to update
-# remote branch  - this command will show you list of branches .. or you can create one by git branch <Branch Name>
+### fetch data to update local repo guidelines
+$ git fetch origin #update your data
+## checkput to branch you want to update
 
-# select the branch using checkout command
-$  git merge origin/<branch Name>
+         (loacl repo anme) (remote branch name)
+$ git checkout -b viresh origin/viresh - this will automatically create a new branh in your local repo 
 
-#safer wayl
-git push --force-with-lease origin main
+## pushing this branch
+$ git push -u origin viresh(search and upate this brach only)
+
+## if names are different 
+git push -u <remote> <local-branch-name>:<remote-branch-name>
+
+## if it is a sub branch of a branch
+git push -u <remote> <local-branch-name>:<remote-parent-branch-name>/<remote-branch-name>
 
 
