@@ -95,3 +95,6 @@ git push -u <remote> <local-branch-name>:<remote-branch-name>
 git push -u <remote> <local-branch-name>:<remote-parent-branch-name>/<remote-branch-name>
 
 
+### for pishing large files >100 mb see 
+https://git-lfs.com/
+
