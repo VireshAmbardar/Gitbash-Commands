@@ -1,6 +1,8 @@
 links --
 1. https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
 
+## Youtube Channel link :- https://www.youtube.com/playlist?list=PL_euSNU_eLbegnt7aR8I1gXfLhKZbxnYX
+
 ## installation - install gitbash  and add it to syatem variable
 
 ## open git bash .. navigate to your Project directory
