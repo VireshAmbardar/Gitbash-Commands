@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Time and Day</title>
+</head>
+<body>
+	<h1>Current Time and Day</h1>
+	<p id="date"></p>
+	<p id="time"></p>
+	<p id="day"></p>
+	<script>			 
+			var date = new Date();
+			var time = date.toLocaleTimeString();
+			var day = date.toLocaleDateString(undefined, { weekday: 'long' });
+			document.getElementById("day").innerHTML = "current day: " + day;
+			document.getElementById("time").innerHTML = "current time: " + time;
+		
+	</script>
+	<form action="/weather" method="post">
+		<label>Enter Location : 
+			<input type="text" id="location" name="location">
+		</label>
+		<label>Submit:
+			<input type="submit" id="submit">
+		</label>
+
+	</form>
+
+
+</body>
+</html>
+
